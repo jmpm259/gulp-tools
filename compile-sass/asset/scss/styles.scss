@@ -1,0 +1,17 @@
+$color		: grey;
+$color-text : blue;
+$color-nav  : green;
+
+body{
+	background: $color;
+	p{
+		color: $color-text;
+		display: flex;
+		flex-direction: column;
+	}
+	header{
+		padding: 0px;
+		margin: 0 auto;
+		background: $color-nav;
+	}
+}
